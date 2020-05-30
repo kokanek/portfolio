@@ -254,7 +254,7 @@ export default function Home() {
       </nav>
       <div className="container">
         <Head>
-          <title>Create Next App</title>
+          <title>Kapeel Kokane</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
