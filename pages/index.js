@@ -1,26 +1,16 @@
 import Head from 'next/head';
+import tw from "twin.macro";
+
 const themeMap = {
   dark: "light",
   light: "solar",
   solar: "dark"
 };
 
-// const theme = localStorage.getItem('theme')
-//   || (tmp = Object.keys(themeMap)[0],
-//     localStorage.setItem('theme', tmp),
-//     tmp);
-// const bodyClass = document.body.classList;
-// bodyClass.add(theme);
-
-// function toggleTheme() {
-//   const current = localStorage.getItem('theme');
-//   const next = themeMap[current];
-
-//   bodyClass.replace(current, next);
-//   localStorage.setItem('theme', next);
-// }
-
 export default function Home() {
+
+  const Subheading = tw.span`tracking-wider text-sm font-medium`;
+  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   return (
     <div>
       <nav className="navbar">
@@ -262,6 +252,10 @@ export default function Home() {
           <h1 className="title">
             Welcome to <a href="https://nextjs.org">Comscience!</a>
           </h1>
+
+          <HighlightedText>Meals Near You.</HighlightedText>
+          <Subheading>Established Since 2014</Subheading>
+          <button tw="text-lg px-8 py-2 rounded">YoYO</button>
 
           <p className="description">
             Javascript learning <code>made easy</code>
