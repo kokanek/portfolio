@@ -10,9 +10,9 @@ import Testimonial from "../src/components/testimonials/ThreeColumnWithProfileIm
 import DownloadApp from "../src/components/cta/DownloadApp.js";
 import Footer from "../src/components/footers/FiveColumnWithInputForm.js";
 
-import chefIconImageSrc from "images/chef-icon.svg";
-import celebrationIconImageSrc from "images/celebration-icon.svg";
-import shopIconImageSrc from "images/shop-icon.svg";
+import chefIconImageSrc from "/static/images/chef-icon.svg";
+import celebrationIconImageSrc from "/static/images/celebration-icon.svg";
+import shopIconImageSrc from "/static/images/shop-icon.svg";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;

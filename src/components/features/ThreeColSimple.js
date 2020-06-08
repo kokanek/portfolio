@@ -5,11 +5,11 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
-import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
-import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
+import { ReactComponent as ArrowRightIcon } from "/static/images/arrow-right-icon.svg";
+import SupportIconImage from "/static/images/support-icon.svg";
+import ShieldIconImage from "/static/images/shield-icon.svg";
+import CustomizeIconImage from "/static/images/customize-icon.svg";
+import { ReactComponent as SvgDecoratorBlob3 } from "/static/images/svg-decorator-blob-3.svg";
 
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
